@@ -249,7 +249,7 @@ ul {
   border-radius: 4px;
   padding: 10px 32px;
 
-  transition: 250ms var(--time);
+  transition: background-color 250ms var(--time);
 }
 .hero-button:hover,
 .hero-button:focus {
