@@ -248,6 +248,8 @@ ul {
   text-decoration: none;
   border-radius: 4px;
   padding: 10px 32px;
+
+  transition: 250ms var(--time);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -455,7 +457,8 @@ ul {
   border: 1px solid transparent;
   border-radius: 4px;
 
-  transition: color 250ms var(--time), background-color 250ms var(--time);
+  transition: color 250ms var(--time), background-color 250ms var(--time),
+    box-shadow color 250ms var(--time);
 }
 .filter-item:not(:first-child) {
   margin-left: 8px;
@@ -525,11 +528,6 @@ ul {
 .portfolio-img:hover .thumb-text,
 .portfolio-img:focus .thumb-text {
   transform: translateZ(0);
-  overflow: visible;
-}
-.portfolio-thumb:hover,
-.portfolio-thumb:focus {
-  transform: translateZ(100%);
   overflow: visible;
 }
 
