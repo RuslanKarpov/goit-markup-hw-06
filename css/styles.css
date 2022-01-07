@@ -758,14 +758,22 @@ ul {
   height: 86px;
   margin-left: 93px;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
 }
 .subscribe-email {
-  display: inline-block;
-  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* display: inline-block;
+  margin-right: 12px; */
+}
+.www {
+  margin-top: 20px;
 }
 .sub-text {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 
   font-weight: 700;
   font-size: 14px;
@@ -777,8 +785,8 @@ ul {
   cursor: pointer;
 }
 .subscribe-input {
-  margin-top: 18px;
   padding-left: 16px;
+  margin-right: 12px;
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
