@@ -994,6 +994,7 @@ ul {
   left: 12px;
   width: 18px;
   height: 18px;
+  fill: #212121;
 }
 .form-input:focus ~ .icon {
   fill: #2196f3;
