@@ -525,6 +525,52 @@
       </div>
     </div>
 
+    <form class="form-container">
+      <p class="form-text">Оставьте свои данные, мы вам перезвоним</p>
+
+      <div class="form-field">
+        <label for="name" class="form-label">Имя</label>
+        <input type="text" class="form-input" name="name" id="name" placeholder=" " />
+        <svg class="form-icon" width="18" height="18">
+          <use href="./images/modal-container/symbol-defs.svg#icon-icon"></use>
+        </svg>
+      </div>
+
+      <div class="form-field">
+        <label for="tel" class="form-label">Телефон</label>
+        <input type="tel" class="form-input" name="tel" id="tel" placeholder=" " />
+        <svg class="form-icon" width="18" height="18">
+          <use href="./images/modal-container/symbol-defs.svg#icon-phonetube"></use>
+        </svg>
+      </div>
+
+      <div class="form-field">
+        <label for="mail" class="form-label">Почта</label>
+        <input type="email" class="form-input" name="mail" id="mail" placeholder=" " />
+        <svg class="form-icon" width="16" height="12">
+          <use href="./images/modal-container/symbol-defs.svg#icon-mail"></use>
+        </svg>
+      </div>
+
+      <div class="form-field">
+        <label for="message" class="form-label">Коментарий</label>
+        <textarea
+          id="message"
+          name="text"
+          class="form-message"
+          placeholder="Введите текст"
+        ></textarea>
+      </div>
+
+      <div class="form-field">
+        <label for="policy">Соглашаюсь на всё, за еду</label>
+
+        <input type="checkbox" name="policy" id="policy" />
+      </div>
+
+      <button type="submit">Оставить заявку</button>
+    </form>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
