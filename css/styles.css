@@ -1031,7 +1031,7 @@ ul {
 }
 .checkbox:checked + .checkbox-icon {
   opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms var(--time);
   background-origin: border-box;
 }
 .click {
