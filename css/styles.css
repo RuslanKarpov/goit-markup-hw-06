@@ -652,7 +652,7 @@ ul {
   color: var(--accent-color);
 }
 .footer-addres {
-  display: inline-block;
+  flex-grow: 1;
 }
 .address-map {
   display: inline-block;
@@ -746,26 +746,19 @@ ul {
 
 .subscribe-container {
   width: 570px;
-  height: 86px;
   margin-left: 93px;
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: column; */
 }
 .subscribe-email {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* display: inline-block;
-  margin-right: 12px; */
-}
-.subscribe-item {
   margin-top: 20px;
 }
-.sub-text {
-  /* margin-bottom: 20px; */
 
+.sub-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
