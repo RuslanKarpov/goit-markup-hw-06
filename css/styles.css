@@ -904,7 +904,7 @@ ul {
   text-align: center;
 }
 .form-field {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -915,7 +915,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--text-color);
-  margin-bottom: 4px;
+  margin-bottom: 20px;
   cursor: pointer;
   position: relative;
 }
@@ -934,7 +934,7 @@ ul {
 .form-input:focus {
   outline: 1px solid #2196f3;
 }
-.form-message {
+.form-input .form-message {
   display: block;
 
   width: 100%;
