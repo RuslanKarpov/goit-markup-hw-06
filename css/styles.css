@@ -915,7 +915,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--text-color);
-  margin-bottom: 20px;
+  margin-bottom: 4px;
   cursor: pointer;
   position: relative;
 }
@@ -934,7 +934,11 @@ ul {
 .form-input:focus {
   outline: 1px solid #2196f3;
 }
-.form-input .form-message {
+.form-input:focus + .form-icon {
+  fill: var(--accent-color);
+}
+
+.form-message {
   display: block;
 
   width: 100%;
@@ -976,6 +980,7 @@ ul {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  /* margin-top: 20px; */
   margin-bottom: 30px;
   width: 100%;
   cursor: pointer;
