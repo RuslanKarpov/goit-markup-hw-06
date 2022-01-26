@@ -195,7 +195,7 @@ ul {
 }
 .contacts-link:hover,
 .contacts-link:focus {
-  color: red;
+  color: var(--accent-color);
 }
 
 /* Hero */
