@@ -560,7 +560,7 @@ ul {
 /* clients */
 .clients {
   padding: 94px auto;
-  background-color: var(-portfolio-color);
+  background-color: var(--accent-color-text));
 }
 .section-title {
   margin-bottom: 50px;
